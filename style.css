@@ -1,6 +1,6 @@
 @import url('http://fonts.googleapis.com/css2?family=Krona=One&family=Montserrat:wght@400;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,32 +12,48 @@ body {
     color: #f6f6f6;
 }
 
-.titulo-destaque {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-menu-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
 }
 
 .apresentacao {
-    padding: 6% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao-conteudo {
-width: 615px;
-display: flex;
-flex-direction: column;
-gap: 40px
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .apresentacao-conteudo-titulo {
     font-size: 36px;
-    font-family: 'Krona one',sans-serif;
+    font-family: 'Krona one', sans-serif;
 }
 
 .apresentacao-conteudo-texto {
     font-size: 24px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao-links {
@@ -49,10 +65,10 @@ gap: 40px
 }
 
 .apresentacao-links-subtitulo {
-font-family: 'Krona one',sans-serif;
-font-weight: 400;
-font-size: 24px;
-} 
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
 
 .apresentacao-links-link {
     /*background-color: #22D4FD;*/
@@ -68,11 +84,11 @@ font-size: 24px;
     padding: 30px 14.5px;
     text-decoration: none;
     color: #f6f6f6;
-    font-family: 'Krona one',sans-serif;
+    font-family: 'Krona one', sans-serif;
 }
 
 .apresentacao-links-link:hover {
-background-color: #272727;
+    background-color: #272727;
 }
 
 #foto {
@@ -86,7 +102,7 @@ background-color: #272727;
     background-color: #22D4FD;
     padding: 25px;
     text-align: center;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
