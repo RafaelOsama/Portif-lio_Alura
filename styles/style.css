@@ -26,6 +26,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .apresentacao {
@@ -91,7 +92,7 @@ body {
     background-color: #272727;
 }
 
-#foto {
+.foto {
     width: 400px;
     border-radius: 28px;
     border: 2px solid #22D4FD;
